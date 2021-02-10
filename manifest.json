@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Messenger Thumbnails",
+  "short_name": "msgr-thumb",
+  "version": "0.1",
+  "description": "Extension that adds thumbnail images to links on Facebook messenger",
+  "content_scripts": [
+    {
+      "matches": ["https://*.facebook.com/*", "https://*.messenger.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
