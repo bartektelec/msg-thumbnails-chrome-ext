@@ -21,6 +21,8 @@ console.info('Messenger Thumbnail Extension on.');
 // });
 
 const emotes = {
+  ':pepedance:':
+    'https://emojis.slackmojis.com/emojis/images/1519926654/3596/pepedance.gif?1519926654',
   ':catjam:':
     'https://emojis.slackmojis.com/emojis/images/1597139481/9975/catjam.gif?1597139481',
   ':party_blob:':
